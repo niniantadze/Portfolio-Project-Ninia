@@ -1,0 +1,18 @@
+:root {
+  --main-color: #b6e2d3;
+  --secondary-color: #ef7c8e;
+  --border-color: #fae8e0;
+  --details-color: #d8a7b1;
+}
+
+body {
+  font-family: "Caveat", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Merienda", cursive;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: var(--secondary-color);
+}
