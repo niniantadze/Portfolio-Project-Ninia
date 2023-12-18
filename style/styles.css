@@ -232,6 +232,24 @@ h4 {
 .soc-media-copy h6:hover {
   text-decoration: underline;
 }
+
+.portfolio {
+  text-align: center;
+  margin-top: 200px;
+  background: var(--details-color);
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+/*Portfolio page */
+
+.portfolio h1 {
+  font-size: 64px;
+  line-height: 1.5;
+  font-weight: 800;
+  font-family: "Quicksand", sans-serif;
+  color: var(--main-color);
+}
+
 /* homepage responsive edits*/
 
 @media (max-width: 900px) {
