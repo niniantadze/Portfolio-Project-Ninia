@@ -13,8 +13,9 @@ body {
   font-family: "Quicksand", sans-serif;
   font-family: "Roboto", sans-serif;
   background: #faf1f1;
-  margin-top: 150px !important;
-  margin: 0px;
+  margin: 0;
+  padding: 0 !important;
+  margin-top: 150px;
 }
 h1 {
   color: var(--secondary-color);
@@ -53,6 +54,7 @@ h3 {
 
 .navbar-custom {
   background-color: var(--main-color) !important;
+  width: 100%;
 }
 .my-logo {
   width: 136px;
@@ -218,4 +220,15 @@ h3 {
 
 .soc-media-copy h6:hover {
   text-decoration: underline;
+}
+/* homepage responsive edits*/
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+  footer {
+    width: 100%;
+  }
 }
