@@ -44,6 +44,17 @@ h3 {
   font-weight: bold;
   line-height: 24px;
 }
+
+h4 {
+  text-align: center !important ;
+  margin: 50px;
+  color: var(--details-color);
+  background-color: var(--main-color);
+  border-radius: 4px;
+  padding: 10px 5px;
+  line-height: 24px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
 .padding {
   padding-top: 130px;
 }
