@@ -12,7 +12,7 @@ body {
   font-family: "Merienda", cursive;
   font-family: "Quicksand", sans-serif;
   font-family: "Roboto", sans-serif;
-
+  background: #faf1f1;
   margin-top: 150px;
 }
 h1 {
@@ -137,4 +137,40 @@ h2 {
   width: fit-content;
   height: auto;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.p-bg {
+  color: var(--details-color);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.img-home-page {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin: 40px auto;
+  width: 440px;
+  height: auto;
+}
+.mb-3 {
+  margin: 40px auto;
+  color: var(--secondary-color);
+}
+.p-bg {
+  margin-top: 40px;
+}
+.app-launcher {
+  border-radius: 4px;
+  background: var(--main-color);
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: bold;
+
+  padding: 12px 24px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+.app-launcher:hover {
+  text-decoration: underline;
+  background-color: var(--border-color);
+  border: solid 2px var(--main-color);
 }
