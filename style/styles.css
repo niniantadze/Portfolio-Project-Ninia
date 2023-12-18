@@ -57,12 +57,22 @@ h2 {
   color: var(--secondary-color) !important;
   line-height: 24px;
   padding-right: 50px !important;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.contact-font:hover {
+  text-decoration: underline;
 }
 .home-font {
   font-size: 18px;
   font-weight: 500;
   color: var(--secondary-color) !important;
   line-height: 24px;
+  transition: all 150ms ease-in-out;
+}
+.home-font:hover {
+  text-decoration: underline;
 }
 
 .about-font {
@@ -70,12 +80,22 @@ h2 {
   font-weight: 500;
   color: var(--secondary-color) !important;
   line-height: 24px;
+  transition: all 150ms ease-in-out;
+}
+
+.about-font:hover {
+  text-decoration: underline;
 }
 .portfolio-font {
   font-size: 18px;
   font-weight: 500;
   color: var(--secondary-color) !important;
   line-height: 24px;
+  transition: all 150ms ease-in-out;
+}
+
+.portfolio-font:hover {
+  text-decoration: underline;
 }
 .main-button {
   border-radius: 4px;
@@ -88,6 +108,13 @@ h2 {
   margin-right: 20px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.main-button:hover {
+  text-decoration: underline;
+  background-color: var(--border-color);
+  border: solid 2px var(--main-color);
 }
 .secendory-button {
   border-radius: 4px;
@@ -99,6 +126,11 @@ h2 {
   border: solid 2px var(--main-color);
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.secendory-button:hover {
+  text-decoration: underline;
 }
 .main-row {
   background: var(--border-color);
