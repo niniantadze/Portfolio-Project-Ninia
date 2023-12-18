@@ -258,7 +258,7 @@ h3 {
   }
 
   .padding {
-    padding-top: 20px;
+    padding-top: 25px;
   }
 
   .img-home-page {
@@ -270,5 +270,14 @@ h3 {
   }
   .app-launcher {
     margin: 20px;
+  }
+  .p-bg {
+    margin-top: 10px;
+  }
+  .mb-3 {
+    padding: 20px 10px;
+  }
+  .soc-media-copy h6 {
+    padding: 5px 46px;
   }
 }
