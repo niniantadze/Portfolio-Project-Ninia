@@ -37,7 +37,8 @@ footer {
   width: 100%;
   padding: 50px;
 }
-h3 {
+
+footer h3 {
   text-align: center;
   color: var(--secondary-color);
   font-size: 30px;
@@ -416,5 +417,41 @@ p.about-ninia {
   }
   .portfolio h1 {
     font-size: 30px;
+  }
+}
+/* About Ninia responsive edits*/
+@media (max-width: 900px) {
+  .aboutninia h1 {
+    font-size: 30px;
+  }
+  .col-md-6 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  h2.about-ninia {
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -40px;
+  }
+  h5.about-ninia {
+    padding: 15px;
+    margin-top: -40px;
+    font-size: 20px;
+  }
+  img.about-ninia {
+    margin: 25px auto;
+  }
+  h3.about-ninia {
+    margin-top: -20px;
+    font-size: 24px;
+    text-align: center !important;
+  }
+
+  .text-about-ninia p {
+    margin-top: 10px;
+    text-align: center !important;
   }
 }
