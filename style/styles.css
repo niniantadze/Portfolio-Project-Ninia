@@ -234,11 +234,7 @@ h4 {
 }
 
 .portfolio {
-  text-align: center;
-  margin-top: 200px;
-  background: var(--details-color);
-  border-radius: 8px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 150px;
 }
 /*Portfolio page */
 
@@ -248,6 +244,57 @@ h4 {
   font-weight: 800;
   font-family: "Quicksand", sans-serif;
   color: var(--main-color);
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-link {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.portfolio-link a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 150ms ease-in-out;
+}
+.portfolio-link a:hover {
+  background: #f9f1f1;
+}
+
+.project-info h5 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+
+.project-info a {
+  text-decoration: none;
+}
+.project-info h5:hover {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.project-info p {
+  margin-top: 2px;
+  font-size: 14px;
+  font-style: italic;
+  color: var(--details-color);
+}
+
+.portfolio-img {
+  transition: all 200ms ease-in-out;
+}
+.portfolio-img:hover {
+  width: 120%;
 }
 
 /* homepage responsive edits*/
@@ -308,5 +355,8 @@ h4 {
   }
   .soc-media-copy h6 {
     padding: 5px 46px;
+  }
+  .portfolio h1 {
+    font-size: 30px;
   }
 }
